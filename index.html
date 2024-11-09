@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi proyecto</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Mi Tienda</h1>
+
+            <ul class="navbar-sections">
+                <li>
+                    <a href="#productos">Productos</a>
+                </li>
+                <li>
+                    <a href="#reseñas">Reseñas</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+       
+    </header>
+    <div class="mobile-navbar-buttons">
+        
+        <div>
+            <a href="#productos">Productos</a>
+        </div>
+        <div>
+            <a href="#reseñas">Reseñas</a>
+        </div>
+        <div>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>
+    <main>
+        <!-- seccion productos  -->
+        <section id="productos">
+            <div class="fill-header"></div>
+            <br>
+            <h1 class="section-title">PRODUCTOS</h1>
+            <br>
+
+            <div class="flex-container-row">
+                <div class="flex-item">
+                    <img src="img/campera-marron-costado.webp" alt="campera-marron">
+                    <div class="card-title">Campera verano</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/remera-negra-frontal.webp" alt="remera">
+                    <div class="card-title">Remera oscura</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/sueter-gris-espalda.webp" alt="sueter">
+                    <div class="card-title">Sueter algodón</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/zap-azul.webp" alt="zapatilla1">
+                    <div class="card-title">Zapatillas Azules</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/zap-blanca.webp" alt="zapatilla2">
+                    <div class="card-title">Zapatillas Blancas</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/zap-gris.webp" alt="zapatilla3">
+                    <div class="card-title">Zapatillas Grises</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/zap-negra.webp" alt="zapatilla4">
+                    <div class="card-title">Zapatillas Negras</div>
+                </div>
+                <div class="flex-item">
+                    <img src="img/zap_roja_dc_interior.webp" alt="zapatilla5">
+                    <div class="card-title">Zapatillas Rojas</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion reseñas  -->
+        <section id="reseñas">
+            <br>
+            <h1 class="section-title">RESEÑAS</h1>
+            <br>
+            <div class="grid-container">
+                <div id="reseña1">
+                    <img src="img/testimonios/person1.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>La mejor tienda online que visité</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo voluptas repellat reprehenderit dolorum quasi magnam libero voluptates. Minus, consequatur eius.</p>
+                        <span>Jorge - 34 años</span>
+                    </div>
+                </div>
+                <div id="reseña2">
+                    <img src="img/testimonios/person2.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Sin espera al pagar</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo voluptas repellat reprehenderit dolorum quasi magnam libero voluptates. Minus, consequatur eius.</p>
+                        <span>Analia - 42 años</span>
+                    </div>
+                </div>
+                <div id="reseña3">
+                    <img src="img/testimonios/person3.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Devolución sin cargo</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo voluptas repellat reprehenderit dolorum quasi magnam libero voluptates. Minus, consequatur eius.</p>
+                        <span>Juan - 40 años</span>
+                    </div>
+                </div>
+                <div id="reseña4">
+                    <img src="img/testimonios/person4.jpg" alt="">
+                    <div class="texto-reseña">
+                        <h3>Los precios más baratos que encontré</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo voluptas repellat reprehenderit dolorum quasi magnam libero voluptates. Minus, consequatur eius.</p>
+                        <span>María - 24 años</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion contacto  -->
+         <section id="contacto">
+            <!-- <br> -->
+            <br>
+            <h1 class="section-title">CONTACTO</h1>
+            <br>
+            
+            <form action="" class="flex-container-column">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required
+                placeholder="Ingrese su nombre">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required
+                placeholder="Ingrese su email">
+                <label for="mensaje">Mensaje</label>
+                <textarea rows="4" cols="50" name="mensaje" id="mensaje"
+                placeholder="Escriba su mensaje"></textarea>    
+                <button type="submit">Enviar</button>
+            </form>    
+         </section>
+         <br>
+    </main>
+    <footer>
+            <span>Talento Tech &copy; 2024</span>
+            <br>
+            <div>
+                <span>Nosotros</span>
+                <span>Acerca de</span>
+            </div>
+            <br>
+    </footer>
+</body>
+</html>
